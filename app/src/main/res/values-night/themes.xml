@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.AppifyMain" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/brandColor</item>
+        <item name="colorPrimaryVariant">@color/brandColor75</item>
+        <item name="colorOnPrimary">@color/white100</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/brandColor60</item>
+        <item name="colorSecondaryVariant">@color/brandColor75</item>
+        <item name="colorOnSecondary">@color/white100</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorOnPrimary</item>
+        <!-- Customize your theme here. -->
+        <item name="fontFamily">@font/urbanist_regular</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@color/brandColor</item>
+    </style>
+    <style name="Theme.AppifySplash" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/brandColor</item>
+        <item name="colorPrimaryVariant">@color/brandColor75</item>
+        <item name="colorOnPrimary">@color/white100</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/brandColor60</item>
+        <item name="colorSecondaryVariant">@color/brandColor75</item>
+        <item name="colorOnSecondary">@color/white100</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorOnPrimary</item>
+        <!-- Customize your theme here. -->
+        <item name="fontFamily">@font/urbanist_regular</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@color/brandColor</item>
+    </style>
+</resources>

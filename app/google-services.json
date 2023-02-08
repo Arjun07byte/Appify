@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "477137425762",
+    "project_id": "appify-f62b7",
+    "storage_bucket": "appify-f62b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:477137425762:android:70fcf1db638ba05170483b",
+        "android_client_info": {
+          "package_name": "com.appify.appifymain"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "477137425762-3hr8dpcnmfh86avfp2t6dluptcae7bhm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBN25r5dF3aA8Va3BFPfcLJwwOn9Gy-2Ts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "477137425762-3hr8dpcnmfh86avfp2t6dluptcae7bhm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

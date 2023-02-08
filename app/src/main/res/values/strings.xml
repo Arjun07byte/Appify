@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Appify</string>
+    <string name="appify_header_logo_cd">Appify Header Logo</string>
+    <string name="make_it_mine_text">Make it Mine</string>
+    <string name="up_arrow_icon_cd">Up Arrow Icon</string>
+    <string name="submit_text">SUBMIT</string>
+    <string name="loading_info_text">Loading Info</string>
+    <string name="please_wait_text">Please Wait</string>
+    <string name="app_desc_hint">App Desc. *</string>
+    <string name="contact_no_hint">Contact No *</string>
+    <string name="e_mail_hint">E-Mail *</string>
+    <string name="name_hint">Name *</string>
+    <string name="three_four_words_description_text">Three Four Words Description</string>
+    <string name="app_name_text">App Name</string>
+    <string name="rating_text">%1$s (5)</string>
+    <string name="review_text">%1$s Reviews</string>
+    <string name="price_text">Price :- $ %1$s</string>
+
+</resources>

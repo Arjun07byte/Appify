@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_main_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.appify.appifymain.fragments.HomeFragment"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_appInfoFragment"
+            app:destination="@id/appInfoFragment"/>
+    </fragment>
+    <fragment
+        android:id="@+id/appInfoFragment"
+        android:name="com.appify.appifymain.fragments.AppInfoFragment"
+        android:label="fragment_app_info"
+        tools:layout="@layout/fragment_app_info">
+        <argument
+            android:name="passedAppInfo"
+            app:nullable="true"
+            app:argType="com.appify.appifymain.models.AppInfo" />
+        <action
+            android:id="@+id/action_appInfoFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="true"/>
+    </fragment>
+</navigation>
