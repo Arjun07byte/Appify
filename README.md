@@ -1,6 +1,6 @@
 # 😎😎 Appify 😎😎
 
-**APPIFY** is an android application with great UI and UX which is used as a reference for my client on upwork to get their projects ordered in one click. Clients can order a project
+**APPIFY** is an android application with great UI and UX which is used as a reference for my clients on upwork to get their projects ordered in one click. Clients can order a project
 which is already there in the application as a template or they can order a custom applicaton with their own preferences.
 
 Uses :- FIREBASE REALTIME DATABASE is used to send and receive information about applicaton, GLIDE is used to load images and GIFs, 
